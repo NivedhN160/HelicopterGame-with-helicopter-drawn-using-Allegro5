@@ -1,24 +1,25 @@
-# Helicopter Game
+# Helicopter Game (Allegro 5)
 
-This is a 2D side-scrolling helicopter game built using C++ and Allegro 5. The goal is to control a helicopter and avoid crashing into obstacles while surviving as long as possible. The game features realistic gravity-based movement and a simple but addictive gameplay loop.
+This is a 2D side-scrolling helicopter game built in C++ using the Allegro 5 graphics library. The objective is to control a helicopter through a scrolling environment, avoiding obstacles and surviving for as long as possible. This project demonstrates basic physics, graphics rendering, and keyboard input handling in a game loop.
 
 ---
 
 ## Overview
 
-- Built with C++ and the Allegro 5 game library
-- Keyboard-controlled helicopter physics
-- Basic collision detection
-- Score increases based on survival time
-- Designed to be lightweight and fast
+- Developed in C++ with Allegro 5
+- Simple physics-based movement (gravity + upward thrust)
+- Side-scrolling gameplay
+- Real-time obstacle avoidance
+- Score increases with time survived
 
 ---
 
 ## Controls
 
-- UP Arrow Key: Move the helicopter upward
-- Release key: Helicopter descends due to gravity
-- Avoid obstacles to stay alive and keep scoring
+- **UP Arrow Key**: Apply thrust and move the helicopter upward
+- **Release Key**: Helicopter descends due to gravity
+- **Avoid obstacles** to keep playing
+- **Game ends** on collision
 
 ---
 
@@ -26,12 +27,12 @@ This is a 2D side-scrolling helicopter game built using C++ and Allegro 5. The g
 
 ### Prerequisites
 
-- A C++ compiler (GCC, MSVC, etc.)
-- Allegro 5 installed and linked correctly
-- Visual Studio, Code::Blocks, or another C++ IDE
+- C++ compiler (GCC, MSVC, etc.)
+- Allegro 5 installed (must link the required libraries)
+- IDE like Visual Studio (recommended), Code::Blocks, or CLion
 
-### Steps
+### Setup Steps
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/helicopter-game.git
+   git clone https://github.com/NivedhN160/HelicopterGame-with-helicopter-drawn-using-Allegro5.git
